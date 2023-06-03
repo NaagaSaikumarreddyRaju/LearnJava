@@ -1,4 +1,4 @@
-package org.learn.java.exception;
+package org.learn_java.exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Main {
 //        }
 //        System.out.println("Terminated Abnormally");
 
-        //Case 3: If there is no exception in try block, catch block are not checked
+        //Case 3: If there is no exception in try block, catch block not checked
         try{
             System.out.println("Sai");
         }catch(NullPointerException e){
@@ -36,7 +36,7 @@ public class Main {
         }
 
         //Case 4: Independent try block not allowed it should have catch block
-        //Case 5: try immediately followed by catch block. no blocks between try and catch
+        //Case 5: try immediately followed by catch or finally. no blocks between try and catch
         //Case 6: If we have exception in try it will be handled in catch.
         // if the exception is raised in catch then it is abnormal execution
 
@@ -91,5 +91,13 @@ public class Main {
         }catch(Exception e){
            e.printStackTrace();
         }
+
+        // Case 10: finally block. Code in finally will be executed if we have normal and abnormal conditions
+        // Mostly we will use that for connection like databases or any cleanup activity to be closed.
+
+        //Case 11: Declare the resource using try block, once the try block is completed the resource is automatically released.
+        // How it is released? It uses internally AutoClosable Interface
+        //eg: try(FileInputStream fis = new FileInputStream("abc.txt")){}
+
     }
 }
