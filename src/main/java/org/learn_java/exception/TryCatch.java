@@ -3,7 +3,7 @@ package org.learn_java.exception;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class TryCatch {
 
 // Exception can be Handled two ways
 // 1. using try-catch

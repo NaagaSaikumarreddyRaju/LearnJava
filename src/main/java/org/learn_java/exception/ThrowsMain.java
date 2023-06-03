@@ -46,9 +46,9 @@ public class ThrowsMain {
 //    }
 
 
+// Note: only the unchecked exceptions are propagated automatically but not checked.
+// The checked exceptions are propagated using throws keyword
 
-
-
-
-
+// Note: Using throws can we delegate unchecked exception?
+//yes possible but not recommended, because unchecked exceptions are automatically propagated
 }
