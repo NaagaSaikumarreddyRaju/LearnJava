@@ -1,4 +1,4 @@
-package org.learn_java.exception;
+package learnJava.exception;
 
 public class ThrowsMain {
     //case1:

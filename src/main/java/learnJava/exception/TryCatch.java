@@ -1,4 +1,4 @@
-package org.learn_java.exception;
+package learnJava.exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
