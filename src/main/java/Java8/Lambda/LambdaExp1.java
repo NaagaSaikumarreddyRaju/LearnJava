@@ -1,4 +1,4 @@
-package Java8;
+package Java8.Lambda;
 @FunctionalInterface
 interface Operations{
     void add(int num1,int num2);

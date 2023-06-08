@@ -1,4 +1,4 @@
-package Java8;
+package Java8.Lambda;
 @FunctionalInterface
 interface loginPage{
     String Service(String username, String password);
