@@ -2,7 +2,7 @@ package Java8.dataSorting;
 
 import java.util.*;
 
-public class Main {
+public class Example {
     public static void main(String[] args) {
 
         List<String> list = Arrays.asList("devi","raju","rani","krishna","raju","rani","king","queen","ratan");
